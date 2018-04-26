@@ -1,0 +1,32 @@
+body
+{
+background-color: black;
+color:white;
+}
+
+h1{
+color: white;
+margin: auto;
+}
+
+.molde
+{
+background-color: #1E90FF;
+height: 50%;
+width: 90%;
+margin: auto;
+}
+
+.cntr{
+margin: auto;
+}
+
+.btn_1{
+background-color: red;
+color: white;
+border: none;
+width: 10%;
+height: 30px;
+}
+
+

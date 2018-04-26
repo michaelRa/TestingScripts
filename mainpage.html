@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css"  href="styles.css">
+<script type="text/javascript" src="js.js"></script>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<title>main</title>
+</head>
+<body>
+<script>
+function update(){
+$("#section").load(window.location.jref+"#section");
+}
+</script>
+<center><h1>main broke</h1></center>
+<div class="molde">
+<hr/>
+<div class="cntr">
+<label>Nombre</label>
+<input type="text" id="nombre" class="texto"/>
+<br/>
+<label>Apellido</label>
+<input type="text" id="apellido" class="texto"/>
+<br/>
+<label>Validacion</label>
+<input type="checkbox" id="validacion" class="texto"/>
+<br/>
+<input type="button" onclick="datos(); rev();" value="Guardar" class="btn_1"/>
+</div>
+<hr/>
+<div id="section">
+nombre:<div id="name">null</div>
+apellido:<div id="sdname">null</div>
+valido:<div id="valid">null</div>
+</div>
+</div>
+</body>
+</html>
