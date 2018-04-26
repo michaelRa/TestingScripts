@@ -11,7 +11,7 @@ validacion = document.getElementById("validacion").checked;
 }
 
 function rev(){
-document.getElementById("name").innerHTML = "name"+nombre;
+document.getElementById("name").innerHTML = nombre;
 document.getElementById("sdname").innerHTML = apellido;
 if(validacion == false){
 document.getElementById("valid").innerHTML = "Invalido";
